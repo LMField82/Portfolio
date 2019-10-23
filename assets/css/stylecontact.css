@@ -5,9 +5,7 @@ header {
     top: 0;
     width: 100%;
     left: 0;
-    
-}
-
+    border: 1px solid #777777;
 }
 #name {
     background-color: #4aaaa5;
