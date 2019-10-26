@@ -9,6 +9,10 @@ header {
     border: 1px solid #cccccc;
 }
 
+body {
+    background-image: url('./../images/hotel-wallpaper.png')
+}
+
 
 
 #name {
@@ -44,34 +48,25 @@ header {
     color: gray;
 }
 
-.wrapper {
-    width: 100%;
-    background-image: url(../images/hotel-wallpaper.png);
-    background-color: white;
-    
-    
- 
+.container {
+    justify-content:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: 
 }
 
 .content {
+    margin:auto;
     width: 960px;
-    margin: 80px 25px 25px 120px;
-   background-color: #cccccc;
-    
-    
-    
-    
+   background-color: #ffffff; 
+   border: 1px solid #666666;
+   padding: 25px;
 }
 
 #about {
     color: #4aaaa5;
     font-size: 28px;
-    
-    margin-left: 20px;
-    border-bottom: 1px solid #cccccc;
-    margin-right: 20px;
-    background-color: #ffffff;
-    margin-top: 120px;
+    padding: 10px;
 }
 
 #imgText img {
@@ -81,14 +76,11 @@ header {
 }
 
 #imgText p {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
     line-height: 2;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    font-size: 14px;
-    background-color: #ffffff;
+    font-size: 16px;
+    /*margin: 0 0 0 0 !important;*/
 }
 
 #footer {
@@ -104,12 +96,4 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     color: #eeeeee;
     font-size: smaller;
-}
-.background {
-    background-image: url(images/hotel-wallpaper.png);
-    background-color:white;
-    background-repeat: repeat;
-    height: 500px; 
-    background-position: left top; 
-    background-size: auto, cover;
 }
